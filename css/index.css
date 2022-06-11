@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: inherit;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#FFFFFF, #F0F1FF);
+  color: #13183F;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 2rem;
+}
+
+.card__icon {
+  left: 28px;
+  position: absolute;
+  top: -28px;
+}
+.card__link {
+  color: #F74780;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+.card__text {
+  color: #83869A;
+  margin-bottom: 1.5rem;
+}
+.card__title {
+  color: #13183F;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  padding-top: 3.5rem;
+}
+
+.courses__card {
+  background-color: #FFFFFF;
+  border-radius: 0.625rem;
+  margin-bottom: 2.5rem;
+  padding: 2rem 1.75rem;
+  position: relative;
+}
+.courses__title {
+  background: linear-gradient(to top, #F02AA6, #FF6F48);
+  border-radius: 0.625rem;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+}
+
+.main {
+  padding: 0 1rem;
+}
+
+.footer {
+  align-items: center;
+  background-color: #13183F;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 2.375rem 0;
+  padding: 0 1rem;
+}
+
+.hero {
+  margin: 2.875rem auto 0;
+}
+
+.intro-text {
+  color: #83869A;
+  line-height: 1.625rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  height: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.start--dark {
+  background-color: #13183F;
+  color: #FFFFFF;
+}
+.start--red {
+  background: linear-gradient(to top, #F02AA6, #FF6F48);
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=index.css.map */
